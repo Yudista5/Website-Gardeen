@@ -4,50 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gardeen</title>
-
+    <title></title>  
+    
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet">
-   
+    
     <!-- Feather Icon -->
     <script src="https://unpkg.com/feather-icons"></script>
-
+    
     <!-- My style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--Transition-->
+    <a href="#section1"></a>
+    <a href="#section2"></a>
+    <a href="#section3"></a>
+
     <!-- Navbar Start-->
+    <section id="#section1">
     <nav class="navbar">
-    <a href="#" class="navbar-logo"><span>Gardeen</span></a>
+    
+        <a href="#" class="navbar-logo"><span>Gardeen</span></a>
     
     <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
-        <a href="#contact">Contact</a>
+        <a href="#shopping">Shopping</a>
     </div>
 
     <div class="navbar-extra">
         <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="user"><i data-feather="user"></i></a>
     </div>
     </nav>
+    </section>
     <!-- Navbar End-->
 
     <!--Hero Section Start-->
+    <section id="#section2">
     <section class="hero" id="home">
         <main class="content">
         <h1>Get.<span>Grow</span>.Green<br></h1>
         <a href="#" class="cta">Shop Now</a>
         </main>
     </section>
+    </section>
     <!--Hero End-->
+
+    <!-- About Section Start-->
+    <section id="about" class="about">
+        <h2>About Us<br><br><br></h2>
+            <div class="row">
+                <div class="about-img">
+                    <img src='img/cactus.jpg' alt="About Us">
+                </div>
+                <div class="content">
+                    <h4>Where you find greenies <br><br></h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor ab debitis eius aut sed earum.<br></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus, nesciunt ullam voluptatum nihil accusantium!<br><br></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, reiciendis quaerat. Tempore numquam sunt quod ipsam possimus cum quisquam corrupti similique voluptas hic, commodi ipsum quis reiciendis dignissimos distinctio asperiores.</p>
+                </div>
+                </div>
+            </div>
+    </section>
+    <!-- About Section End-->
+
+    <!--Shop Section Start-->
+    <section id="#section3">
+        <section id="shopping" class="shopping">
+            <h2>Shop Now!<br><br><br></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur at earum architecto eaque tenetur dolorum vitae. Inventore, magni assumenda? Perspiciatis, quae. Autem culpa mollitia recusandae esse veritatis consequatur laborum. Fugiat?<br><br></p>
+            <div class="row">
+                <div class="menu-card">
+                    <img src="img/1.jpg" alt="Equipment" class="menu-card-img">
+                    <h3 class="menu-card-title"> Equipment</h3>
+                    <p class="menu-card-text">Lorem ipsum dolor sit amet.</p>
+                    <a href="#more" class="cta">See More</a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Shop Section End-->
+
+
 
     <!-- Feather Icon -->
     <script>
-        feather.replace()
-      </script>
+    feather.replace()
+    </script>
 
     <!--My JavaScript-->
     <script scr="js/script.js"></script>
