@@ -1,6 +1,6 @@
 :root{
-    --primary: #1f2c13;
-    --bg: #000702; 
+    --primary: #17200e;
+    --bg: #2d4a1a; 
 } 
 
 * {
@@ -23,7 +23,7 @@ body{
 
     font-family: 'Bilbo Swash Caps', cursive;
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg);
+    background-color: var(--primary);
     color: #010101;
     min-height: 2000px;
 }
@@ -180,6 +180,23 @@ body{
     line-height: 1.4rem;
 }
 
+.about .row .content .contact{
+    display: inherit;
+    margin-top: 2rem;
+    width: 15rem;
+    justify-content: center;
+}
+
+.about .row .content .contact p{
+    color:#e4e4e4;
+    font-size: 1rem;
+}
+.about .row .content .contact a{
+    margin: 0.5rem;
+    color: #e4e4e4;
+    font-size: 0.5rem;
+}
+
 /* Shop */
 
 .shopping {
@@ -191,14 +208,18 @@ body{
 }
 
 .shopping p {
-    color:#9e9e9e;
+    margin: auto;
+    color: #9e9e9e;
     text-align: center;
     font-size: 0.8rem;
+    display: block;
+    width: 30rem;
 }
+
 
 .shopping .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 5rem;
     justify-content: center;
 }
@@ -206,13 +227,45 @@ body{
 .shopping .row .menu-card{
     margin: auto;
     display: inline-grid;
+    align-content: space-around;
+    background-color: rgba(113, 141, 95, 0.2);
+    text-align: center;
+    border-radius: 0.4rem;
 }
 
 .shopping .row .menu-card img{
-    border-radius: 3rem;
-    width: 20%;
-    justify-content: flex-end;
+    border-radius: 10em;
+    width: 15rem;
+    margin: auto;
 }
+
+.shopping .row .menu-body{
+    width: 20rem;
+}
+.shopping .row .menu-body h3{
+    color:#e4e4e4;
+}
+
+.shopping .row .menu-body p{
+    text-align: center;
+    width: 20rem;
+}
+
+.shopping .row .menu-body .cta{
+    margin-top: 0.2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color:#010101;
+    background-color:#a94802;
+    border-radius: 30px;
+}
+
+.shopping .row .menu-body .cta:hover{
+    color:#e4e4e4;
+    background-color: #1f2c13;
+}
+
 
 
 
