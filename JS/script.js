@@ -11,4 +11,21 @@ document.querySelectorAll('a').forEach(link => {
       });
     });
   });
+
+  // Toggle class active
+
+  const subMenu = document.querySelector('.sub-menu');
+  //ketika user icon diklik
+  document.querySelector('#user').onclick = () =>{
+    subMenu.classList.toggle('active');
+  };
+
+
+
+
+
+
+
+
+
   
